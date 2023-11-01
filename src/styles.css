@@ -1,8 +1,76 @@
+body {
+  font-family: Poppins, sans-serif;
+}
+
+header {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/beach.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 286px;
+  padding-bottom: 292px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
 h1 {
-  font-family: Poppins;
   font-size: 96px;
   font-weight: 700;
-  line-height: 144px;
+  line-height: 1.5;
   letter-spacing: 0em;
-  text-align: left;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0em;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 36px;
+  letter-spacing: 5px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  margin-top: 32px;
+  font-size: 14px;
+  padding: 16px 32px;
+  display: inline-block;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
 }
