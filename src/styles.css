@@ -73,6 +73,22 @@ main h3 {
   margin: 0;
 }
 
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
 main p {
   font-style: normal;
   font-weight: 400;
@@ -125,10 +141,24 @@ footer li {
   height: 461px;
 }
 
-.card {
+.img-card {
   width: 185px;
   height: 185px;
 }
+
+.card {
+  background-color: white;
+  margin-top: 30px 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -153,10 +183,25 @@ footer li {
 
 .img-responsive {
   max-width: 100%;
+  display: block;
 }
 
 .text-center {
   text-align: center;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 3;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
 }
 
 @media (max-width: 900px) {
