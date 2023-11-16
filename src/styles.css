@@ -141,11 +141,6 @@ footer li {
   height: 461px;
 }
 
-.img-card {
-  width: 185px;
-  height: 185px;
-}
-
 .card {
   background-color: white;
   margin-top: 30px 0;
@@ -153,6 +148,10 @@ footer li {
 
 .card-body {
   padding: 30px;
+}
+
+.card-header.grid {
+  grid-gap: 0;
 }
 
 .card-footer {
@@ -182,12 +181,17 @@ footer li {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
 .text-center {
   text-align: center;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .btn {
@@ -202,6 +206,9 @@ footer li {
   padding: 16px;
   background-color: #462cb3;
   text-decoration: none;
+}
+.instagram-card {
+  margin: 30px;
 }
 
 @media (max-width: 900px) {
@@ -225,8 +232,21 @@ footer li {
     padding: 30px;
   }
 
+  blockqoute {
+    margin: 0 auto;
+    display: block;
+  }
+
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
